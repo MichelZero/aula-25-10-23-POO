@@ -3,5 +3,5 @@ class Endereco:
       self.cidade = cidade
       self.estado = estado
 
-    def __del__(self):
-      print(f'{self.cidade}/{self.estado} FOI APAGADO')
+    def __del__(self): # método destrutor 
+      print(f'{self.cidade}/{self.estado} FOI APAGADO') # quando o objeto é apagado, o endereço é apagado também

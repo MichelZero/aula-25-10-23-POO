@@ -15,10 +15,10 @@ class B:
   def __init__(self, d, e,):
     self.d = d
     self.e = e
-    self.A = A("soma = ", 2, 8)
+    self.A = A("soma = ", 2, 8) # composição da classe A dentro da classe B (A é um atributo de B)
 
   def somaTodosNum(self):
-    x = self.d + self.e + self.A.b + self.A.c
+    x = self.d + self.e + self.A.b + self.A.c # soma de todos os atributos das classes A e B 
     return x
   
   

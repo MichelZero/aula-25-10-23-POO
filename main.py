@@ -1,11 +1,12 @@
 from cliente import Cliente as C
 
-c1 = C('Davi', 32)
-c1.insereEndereco('Cajazeiras', 'PB')
-print(c1.nome)
-c1.listaEnderecos()
-del c1
-print()
+
+c1 = C('Davi', 32) # cria um objeto da classe Cliente (composição)
+c1.insereEndereco('Cajazeiras', 'PB') # adiciona um endereço na lista de endereços do cliente (composição)
+print(c1.nome) # imprime o nome do cliente (composição)
+c1.listaEnderecos() # imprime os endereços do cliente (composição)
+del c1 # apaga o objeto da classe Cliente (composição)
+print()  # pula uma linha
 
 
 
